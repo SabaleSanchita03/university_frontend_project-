@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="edu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+
+            <a href=""><img src="eduu/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making website is now one of the easiest thing in the world.You just need to learn HTML,CSS,<br>
+                Javascript and you are good to go. <br>
+            </p>
+            <a href="" id="btn">Visit us to know More</a>
+        </div>
+    </section>
+
+    <hr>
+    <!--COURSE-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iusto dolorum nam.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>INTERMEDIATE</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo dolorem amet ipsa adipisci, nesciunt
+                    reiciendis deserunt doloribus at veritatis libero recusandae, pariatur iure mollitia saepe quasi
+                    odit voluptas ea maxime.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>DEGREE</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo dolorem amet ipsa adipisci, nesciunt
+                    reiciendis deserunt doloribus at veritatis libero recusandae, pariatur iure mollitia saepe quasi
+                    odit voluptas ea maxime.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>POST GRADUATE</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo dolorem amet ipsa adipisci, nesciunt
+                    reiciendis deserunt doloribus at veritatis libero recusandae, pariatur iure mollitia saepe quasi
+                    odit voluptas ea maxime.</p>
+            </div>
+        </div>
+    </section>
+    <!----------Campus--------->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nobis enim dolorem aspernatur non et sed
+            laborum deserunt, id cumque facere adipisci fuga provident cum. Dolor maxime molestias placeat deserunt?</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="eduu/londan.jpg" alt="">
+                <div class="layer">
+                    <h3>LONDAN</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="eduu/newyork.jpg" alt="">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="eduu/dubai.jpg" alt="">
+                <div class="layer">
+                    <h3>DUBAI</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----Facilities---->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quibusdam quos minus incidunt amet fugiat,
+            odit ex impedit quasi placeat?
+        </p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduu/library.jpg" alt="">
+                <h3>World class library</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque fugiat doloremque vel. Ab
+                    ipsa sapiente incidunt, dicta est nihil?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduu/play.jpg" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque fugiat doloremque vel. Ab
+                    ipsa sapiente incidunt, dicta est nihil?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduu/cafe.jpg" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque fugiat doloremque vel. Ab
+                    ipsa sapiente incidunt, dicta est nihil?</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-------testimonials---------->
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nihil nesciunt itaque.</p>
+
+        <div class="row">
+            <div class="testi">
+                <img src="eduu/st1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum minus nam, fugiat est quaerat aut
+                        ad repudiandae deleniti quis quia rerum explicabo, ratione quas numquam voluptatum voluptatem,
+                        nihil omnis hic natus eos!</p>
+                    <h2>Jayesh Umane</h2>
+                    <div class="star">★★★⯪☆</div>
+                </div>
+            </div>
+
+
+            <div class="testi">
+                <img src="eduu/st2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum minus nam, fugiat est quaerat aut
+                        ad repudiandae deleniti quis quia rerum explicabo, ratione quas numquam voluptatum voluptatem,
+                        nihil omnis hic natus eos!</p>
+                    <h2>Chhavi Mistry</h2>
+                    <div class="star">★★★★★</div>
+                </div>
+            </div>
+
+            <div class="testi">
+                <img src="eduu/st3.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum minus nam, fugiat est quaerat aut
+                        ad repudiandae deleniti quis quia rerum explicabo, ratione quas numquam voluptatum voluptatem,
+                        nihil omnis hic natus eos!</p>
+                    <h2>Anushka Bhuvad</h2>
+                    <div class="star">★★★★☆</div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    v
+    <!-----CALL TO ACTION---->
+    <section class="cta">
+        <h1>Enroll for our Various online course anywhere from the world</h1>
+        <a href="" id="btn">CONTACT US</a> </section>
+
+        <!-----CALL TO ACTION---->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam assumenda facilis sed quaerat ab debitis
+                quidem incidunt <br> cumque suscipit ipsum. Magnam veritatis perspiciatis brobcaecati numquam animi quia
+                hic,
+                excepturi iure.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa-solid fa-heart"></i> in India</p>
+        </section>
+
+        <!---javascript list toggle script-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+</body>
+
+</html>
