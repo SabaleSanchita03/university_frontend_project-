@@ -9,7 +9,7 @@
     background-image:
         linear-gradient(rgba(130, 131, 137, 0.7),
         rgba(4, 9, 30, 0.7)),
-        url("/eduu/university.jpg");
+        url("eduu/university.jpg");
 
     background-position: center;
     background-size: cover;
@@ -324,7 +324,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/eduu/banner2.jpg");
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("eduu/banner2.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
